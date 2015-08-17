@@ -1,0 +1,73 @@
+@font-face { font-family: Century; src: url('GOTHIC.ttf'); }
+body{
+  font-family: Century;
+  background-color: darkblue;
+  background: url("http://www.softwarecrew.com/wp-content/uploads/2011/08/windows_8_wallpaper_large.png") fixed;
+  color: #fff;
+  padding:20px;
+  overflow: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+h1 {
+  position: fixed;
+}
+
+footer {
+  font-family: Arial;
+  font-size: 10px;
+  position: fixed;
+  bottom: 10px;
+  left: 10px
+}
+
+footer a {
+  color: #fff;
+}
+  
+.pagina{
+  position: absolute;
+  top: 120px;
+  height:auto;
+  min-width: 800px;
+}
+  
+.linha{
+    width:auto;
+    padding:5px;
+    height:auto;
+    display:table;     
+}
+
+.tile{
+    height:100px;  
+    width:100px; 
+    float:left;
+    margin:0 5px 0 0;
+    padding:2px;
+}
+  
+.tileLargo{
+    width:210px;
+}
+
+.amarelo{
+    background:#DAA520;
+}
+  
+.vermelho{
+    background:#CD0000; 
+}
+  
+.azul{
+    background:#4682B4;
+}
+  
+.verde{
+    background-color: #2E8B57;
+}
+
+.selecionado{
+    background-color: #483D8B;
+}

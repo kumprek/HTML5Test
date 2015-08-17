@@ -1,0 +1,301 @@
+/* body{
+background-color: #E6E6E6;
+} */
+
+table, tr, td {
+   border: 1px solid #DDD;
+   border-radius: 1px;
+   margin-bottom: 0px !important;
+   border-radius: 1px;
+} 
+
+.Queued {
+    background-color: #C5E9C4;
+}
+
+.defaultStatus{
+	background-color: #F08383;
+	font-family: "Segoe UI"  !important;
+}
+
+.Active{
+	background-color: #4AC647;
+}
+
+
+.statusCode_0{
+	background-color: #AAD4E9;
+	//background-color: #D9EDF7;
+}
+
+.statusCode_1{
+	background-color: #F5E79F;
+}
+
+.dateWrapperStyleMDLG {
+	width : 10% !important;
+	 display:inline-block !important; 
+	
+}
+
+.dateWrapperStyleXSSM {
+	 width : 100% !important; 
+	  display:inline-block !important; 
+}
+
+.successClientNode{
+	background-color: #96BC87;
+	padding:1%;
+	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    -mox-box-shadow: 4px 4px 4px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 10px rbga(0, 0, 0, 0.4) pointer-events: none;
+	margin:1%;
+}
+
+.failedClientNode{
+	background-color: #E7AAAA;
+	padding:1%;
+	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    -mox-box-shadow: 4px 4px 4px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 10px rbga(0, 0, 0, 0.4) pointer-events: none;
+	margin:1%;
+}
+
+.failedClientNode a, .successClientNode a{
+color: white !important;
+}
+
+table, tr, td{
+border: none;
+}
+
+#piechart{
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+.body{
+font: 26px calibri;
+}
+
+.axis {
+  font: 15px calibri;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.defaultBox {
+    display: none;
+    width: 160px;
+    padding: 3.5px;
+    vertical-align: top;
+}
+
+
+a, a:link, a:visited, a:hover, a:active {
+    color: #0072C6;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+
+.defaultBox a {
+    display: block;
+    position: relative;
+    
+    transition: background-color 0.6s ease 0s;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(6, 6, 6);
+    border: 1px solid #D2D2D2;
+}
+
+article {
+    text-align: center;
+}
+
+.defaultBox a .subLine {
+    height: 30px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+   
+    z-index: 1;
+    overflow: hidden;
+    min-height: 20px;
+    max-height: 40px;
+    background-color: rgba(16, 134, 153, 0.8);
+	<!-- background-color: rgba(0, 0, 0, 0.8); -->
+	
+}
+
+
+.bodyReverse {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+	line-height: 50% !important;
+	font-family: "Segoe UI";
+    font-weight: 200;
+	fill: #FFF;
+	
+}
+
+.bodyReverse a{
+    color: rgb(255, 255, 255);
+	font-family: "Segoe UI";
+}
+.dataCSS {
+    font-size: 32px;
+    color: rgb(252, 252, 252);
+    line-height: 100% !important;
+    font-weight: 400;
+	font-style: bold;
+	font-family: "Segoe UI";
+}
+article {
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+    font-weight: 100;
+}
+
+.tilesArticles {
+    padding-top: 36px;
+    padding-bottom: 40px;
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+.tooltip {
+    position: absolute;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    -mox-box-shadow: 4px 4px 4px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 10px rbga(0, 0, 0, 0.4) pointer-events: none;
+}
+.tooltip.hidden {
+    opacity: 0;
+}
+.tooltip p {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.regionDivs{
+    width: 10%;
+    height: 10%;
+    padding: 10px;
+    background-color: aqua;
+	 -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    -mox-box-shadow: 4px 4px 4px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 10px rbga(0, 0, 0, 0.4) pointer-events: none;
+	margin-right:10%;
+}
+
+.badge {
+ display: inline-block;
+ min-width: 10px;
+ padding: 3px 7px;
+ font-size: 10px;
+ font-weight: 700;
+ line-height: 1;
+ color: #fff;
+ text-align: center;
+ white-space: nowrap;
+ vertical-align: baseline;
+ background-color: #777;
+ border-radius: 10px;
+ text-transform: capitalize;
+}
+
+.table-responsive
+{
+    overflow-x: auto;
+}
+
+.initialPageLoad{
+	display: none;
+	position: absolute;
+	left: 0px;
+	top:0%;
+	width: 100%;
+	height: 100%;
+	background: url('images/loading-blue.gif') 50% 15% no-repeat rgb(255,255,255);
+	background-size:25% auto;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	z-index: 100;
+	cursor:wait;
+}
+
+.dashboardh1{
+	color:rgba(95, 83, 82, 0.9);
+    line-height: 100% !important;
+    font-weight: 400;
+	font-style: bold;
+	font-family: "Segoe UI";
+}
+.dashboard{
+
+    color:#5F87BC;
+    line-height: 100% !important;
+    font-weight: 400;
+	font-style: bold;
+	font-family: "Segoe UI";
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.tableHeaderRow{
+	//background-color: rgb(253, 233, 217);
+	background-color: #FCF8E3;
+	font-family: "Segoe UI"  !important;
+}
+
+rect{
+cursor: pointer; 
+cursor: hand; 
+
+}
